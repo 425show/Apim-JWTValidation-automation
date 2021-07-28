@@ -1,0 +1,104 @@
+
+{
+    {
+        "displayName": "ComputedService",
+        "description": null,
+        "signInAudience": "AzureADMyOrg",
+        "identifierUris": [
+            "api://serviceapp"
+        ],
+        "deletedDateTime": null,
+        "applicationTemplateId": null,
+        "groupMembershipClaims": null,
+        "isDeviceOnlyAuthSupported": null,
+        "isFallbackPublicClient": null,
+        "notes": null,
+        "publisherDomain": "cmatskas.onmicrosoft.com",
+        "tags": [],
+        "tokenEncryptionKeyId": null,
+        "defaultRedirectUri": null,
+        "optionalClaims": null,
+        "verifiedPublisher": {
+            "displayName": null,
+            "verifiedPublisherId": null,
+            "addedDateTime": null
+        },
+        "addIns": [],
+        "api": {
+            "acceptMappedClaims": null,
+            "knownClientApplications": [],
+            "requestedAccessTokenVersion": 2,
+            "oauth2PermissionScopes": [
+                {
+                    "adminConsentDescription": "access the app as a user",
+                    "adminConsentDisplayName": "access the app as a user",
+                    "isEnabled": true,
+                    "type": "User",
+                    "userConsentDescription": "access the app as a user",
+                    "userConsentDisplayName": "access the app as a user",
+                    "value": "access_as_user"
+                }
+            ],
+            "preAuthorizedApplications": []
+        },
+        "appRoles": [],
+        "info": {
+            "logoUrl": null,
+            "marketingUrl": null,
+            "privacyStatementUrl": null,
+            "supportUrl": null,
+            "termsOfServiceUrl": null
+        },
+        "keyCredentials": [],
+        "parentalControlSettings": {
+            "countriesBlockedForMinors": [],
+            "legalAgeGroupRule": "Allow"
+        },
+        "passwordCredentials": [],
+        "publicClient": {
+            "redirectUris": []
+        },
+        "requiredResourceAccess": [],
+        "web": {
+            "homePageUrl": null,
+            "logoutUrl": null,
+            "redirectUris": [],
+            "implicitGrantSettings": {
+                "enableAccessTokenIssuance": false,
+                "enableIdTokenIssuance": false
+            }
+        },
+        "spa": {
+            "redirectUris": []
+        }
+    },
+    {
+        "displayName": "ComputedService",
+        "identifierUris": [
+            "api://MyCustomAPI"
+        ],
+        "api": {
+            "acceptMappedClaims": null,
+            "knownClientApplications": [],
+            "requestedAccessTokenVersion": 2,
+            "oauth2PermissionScopes": [
+                {
+                    "id":"5b77f8b1-879d-4115-a475-09a20eb61e26", 
+                    "adminConsentDescription": "access the app as a user",
+                    "adminConsentDisplayName": "access the app as a user",
+                    "isEnabled": true,
+                    "type": "User",
+                    "userConsentDescription": "access the app as a user",
+                    "userConsentDisplayName": "access the app as a user",
+                    "value": "access_as_user"
+                }
+            ],
+            "preAuthorizedApplications": [],
+            "passwordCredentials": [
+                {
+                    "displayName": "Password uploaded on Fri Jan 08 2021"
+                }
+            ],
+        }
+    }
+}

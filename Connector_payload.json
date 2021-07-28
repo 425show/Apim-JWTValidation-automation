@@ -1,0 +1,10 @@
+{
+    "authtype": "OAuth2",
+    "IdentityProvider": "Azure Active Directory",
+    "ClientId": "Client ID Guid",
+    "ClientSecret": "Client Secret",
+    "LoginUrl": "https://login.windows.net",
+    "TenantId": "Tenant Id",
+    "ResourceUrl": "api://Guid",
+    "Scope": "api://Guid/scope_name"
+}
